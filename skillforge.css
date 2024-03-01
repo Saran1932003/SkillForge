@@ -1,0 +1,52 @@
+body {
+    background-color: #f8f9fa;
+    margin-bottom: 60px; /* Adjusted margin for fixed navbar and footer */
+    background-image: url(./images/background_AI_2.jpg);
+}
+
+.container {
+    margin-top: 80px;
+    width: 50%;
+}
+
+footer {
+    background-color: #343a4091;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#chatResponse {
+    margin-top: 20px;
+    border: #f8f9fa00;
+    width: 50%;
+    color: #000509;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 2%;
+}
+
+.loading-spinner {
+    display: none;
+}
+.small-input {
+    font-size: 14px;
+    height: 30px;
+    width: 10%;
+  }
+  label {
+    color: white;
+    font-weight: bold;
+  }
+  #inputContent {
+    font-size: 14px; /* Adjusted font size */
+    height: 40px; /* Adjusted height */
+    width: 50%;
+  }
+  #selectType{
+    font-size: 14px; /* Adjusted font size */
+    height: 40px; /* Adjusted height */
+    width: 50%;
+  }
